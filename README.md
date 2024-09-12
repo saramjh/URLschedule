@@ -3,6 +3,7 @@
 ## 소개
 
 이 프로젝트는 사용자가 일정을 관리하고 메모를 작성할 수 있는 달력 애플리케이션입니다. 사용자는 작성한 메모를 URL로 공유하고, 다른 사용자와 메모를 공유하거나, 자신이 작성한 메모를 언제든지 불러올 수 있습니다. 이 애플리케이션은 메모를 로컬 스토리지에 저장하고, 페이지 URL의 쿼리 파라미터를 통해 데이터를 공유하는 기능을 제공합니다.
+[바로가기](https://saramjh.github.io/URLschedule/?)
 
 ## 기능
 
@@ -74,6 +75,10 @@
 
 - **`updateMemoCounts()`**: 과거와 미래의 메모 개수를 계산하고 표시합니다.
 - **`updateCountsFromURL()`**: URL에서 메모 개수 값을 가져와서 화면에 표시합니다.
+
+### 도움받은 소스
+
+[aengzu.log](https://velog.io/@aengzu/2024-%EB%8F%99%EA%B8%B0%EA%B3%84%EC%A0%88-%EB%AA%A8%EA%B0%81%EC%BD%94-3%ED%9A%8C%EC%B0%A8-html-css-js-%EB%A1%9C-%EC%BA%98%EB%A6%B0%EB%8D%94-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
 ## 개발자
 
