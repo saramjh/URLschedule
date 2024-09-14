@@ -2,6 +2,7 @@
 
 ## 소개
 ![image](https://github.com/user-attachments/assets/9ead0fd1-97c8-47e4-9743-111ec526303a)
+![화면 기록 2024-09-14 20 10 56](https://github.com/user-attachments/assets/3bd965ab-6616-4add-aa4a-5e3125b9b0f2)
 
 이 프로젝트는 사용자가 일정을 관리하고 메모를 작성할 수 있는 달력 애플리케이션입니다. 사용자는 작성한 메모를 URL로 공유하고, 다른 사용자와 메모를 공유하거나, 자신이 작성한 메모를 언제든지 불러올 수 있습니다. 이 애플리케이션은 메모를 로컬 스토리지에 저장하고, 페이지 URL의 쿼리 파라미터를 통해 데이터를 공유하는 기능을 제공합니다.
 [바로가기](https://saramjh.github.io/URLschedule/)
@@ -12,6 +13,7 @@
 - **메모 관리**: 날짜별로 메모를 추가, 수정 및 삭제할 수 있습니다.
 - **URL 공유**: 작성한 메모를 포함한 달력 상태를 URL로 공유할 수 있습니다.
 - **메모 개수 표시**: 과거와 미래의 메모 개수를 화면에 표시합니다.
+- **다국어 지원**: English, Español, 한국어, 日本語, 中文, Deutsch, Italiano, Français, Tiếng Việt, Bahasa Indonesia
 
 ## 사용법
 
