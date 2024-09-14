@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
   <!-- Google Tag Manager -->
@@ -56,38 +56,47 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
-    <h1 id="header">URL 공유 달력</h1>
-    <p id="description">일정과 메모를 저장하고 안전하게 URL로 공유하세요!</p>
+    <h1 id="header">URL Share Calendar</h1>
+    <p id="description">Save schedules and memos and share them securely via URL!</p>
+    <!-- 언어 선택 버튼 추가 -->
+    <div class="language-selector" style="position: fixed; top: 10px; right: 10px; z-index: 999;">
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="ko">한국어</option>
+        <option value="ja">日本語</option>
+        <option value="zh">中文</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+        <option value="fr">Français</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="id">Bahasa Indonesia</option>
+      </select>
+    </div>
   </header>
   <main>
     <section class="calendar-container">
       <div class="calendar-header">
         <i id="prev-mon" class="fa-solid fa-angle-left fa-xl"></i>
         <p id="past-memo-count">0</p>
-        <span id="curent-mon">2024년 1월</span>
+        <span id="curent-mon">January 2024</span>
         <p id="future-memo-count">0</p>
         <i id="next-mon" class="fa-solid fa-angle-right fa-xl"></i>
       </div>
       <div class="weekday-row">
-        <div class="weekend">일</div>
-        <div class="weekday">월</div>
-        <div class="weekday">화</div>
-        <div class="weekday">수</div>
-        <div class="weekday">목</div>
-        <div class="weekday">금</div>
-        <div class="weekend">토</div>
+        <!-- 요일은 JavaScript에서 동적으로 설정 -->
       </div>
       <div class="calendar-grid">
-        <!-- 달력 날짜는 여기에 표시됩니다 -->
+        <!-- 달력 날짜는 여기에서 표시됩니다 -->
       </div>
       <div class="btnGroup">
-        <button id="share-button" class="button save">달력 공유</button>
+        <button id="share-button" class="button save">Share Calendar</button>
       </div>
     </section>
     <section class="memo-form">
       <div class="memo-container">
         <div class="memo-title">
-          <div id="memo-date">날짜를 선택해주세요</div>
+          <div id="memo-date">Please select a date</div>
         </div>
         <textarea id="memo-input" class="memo-input" style="margin-bottom: 5px;"></textarea>
         <div class="option">
@@ -95,14 +104,14 @@
             <input id="memo-time" type="time" class="memo-input">
           </label>
           <label class="switch-label" for="memo-completed">
-            완료 여부
+            Completed
             <input id="memo-completed" type="checkbox" class="switch-input">
             <span class="switch-slider"></span>
           </label>
         </div>
         <div class="memo-action" style="margin-left: auto; margin-right: auto;">
-          <button id="save-memo" class="button save">저장</button>
-          <button id="delete-memo" class="button delete">삭제</button>
+          <button id="save-memo" class="button save">Save</button>
+          <button id="delete-memo" class="button delete">Delete</button>
         </div>
       </div>
     </section>
